@@ -1,0 +1,24 @@
+:root{
+    --cat-green:rgb(216, 230, 162);
+}
+
+header {
+    position: absolute;
+}
+
+@media (max-width: 768px) {
+    header {
+        display: none;
+    }
+}
+header a {
+  box-shadow: inset 0 0 0 0 #9ae530;
+  color: var(--cat-green);
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+header a:hover {
+  box-shadow: inset 100px 0 0 0 #82ce10;
+  color: white;
+}
