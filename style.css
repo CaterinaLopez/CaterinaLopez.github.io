@@ -1,0 +1,46 @@
+:root{
+    --cat-green:rgb(216, 230, 162);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, p{
+    color: var(--cat-green)
+}
+
+button {
+    padding: 1px;
+}
+
+.main-photo {
+    width: 250px;
+    border-radius: 250%;
+    border: var(--cat-green) solid 3px;
+    margin-right: 50px;
+}
+@media (max-width:768px){
+    .main-photo{
+        width: 250px;
+        border-radius: 50%;
+        margin:0;
+    }
+}
+.image-background {
+    background-image: url("./images/green\ leaves.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
+
+.intro {
+    flex-wrap: wrap;
+    padding: 100px;
+    display: flex;
+}
+
+@media (max-width: 768px) {
+
+}
